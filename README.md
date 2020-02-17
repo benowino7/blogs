@@ -1,4 +1,4 @@
-# STEVE'S BLOG APP
+# Blogs
 BLOGs is a personal blogging website where one can create and share  opinions.
  Other users can read and comment on opinions. 
 Blogs also has random quotes that inspire the users. 
