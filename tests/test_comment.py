@@ -3,8 +3,8 @@ from app import db
 
 
 def setUp(self):
-        self.user_James = User(username = 'James',password = 'potato', email = 'james@ms.com')
-        self.new_comment = Comment(post_id=12345,comment='Welcome to the comment section', user = self.user_James )
+        self.user_Contech7 = User(username = 'Contech7',password = 'potato', email = 'contech7@ms.com')
+        self.new_comment = Comment(post_id=12345,comment='Welcome to the comment section', user = self.user_Contech7 )
   
         
 def tearDown(self):
@@ -15,7 +15,7 @@ def tearDown(self):
 def test_check_instance_variables(self):
         self.assertEquals(self.new_comment.post_id,12345)
         self.assertEquals(self.new_comment.comment,'Welcome to the comment section')
-        self.assertEquals(self.new_comment.user,self.user_James)
+        self.assertEquals(self.new_comment.user,self.user_Contech7)
         
         
 def test_save_comment(self):
