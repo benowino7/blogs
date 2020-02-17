@@ -1,14 +1,14 @@
  
 body {
-    background-image:url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?cs=srgb&dl=blank-business-composition-computer-373076.jpg&fm=jpg") ;
-    color: grey;
+    background-image:url("https://images.pexels.com/photos/3568792/pexels-photo-3568792.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+    color: silver;
     margin-top: 5rem;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: #444444;
+    color: #202020;
   }
   
   .bg-steel {
@@ -16,7 +16,7 @@ body {
   }
   
   .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color: #d2d6d8;
   }
   
   .site-header .navbar-nav .nav-link:hover {
@@ -30,17 +30,17 @@ body {
   .content-section {
     background: #ffffff;
     padding: 10px 20px;
-    border: 1px solid #dddddd;
+    border: 1px solid #cecdcd;
     border-radius: 3px;
     margin-bottom: 20px;
   }
   
   .article-title {
-    color: #444444;
+    color: #646262;
   }
   
   a.article-title:hover {
-    color: #428bca;
+    color: #5ca8eb;
     text-decoration: none;
   }
   
@@ -57,11 +57,11 @@ body {
   .article-metadata {
     padding-bottom: 1px;
     margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
+    border-bottom: 1px solid #beb9b9
   }
   
   .article-metadata a:hover {
-    color: #333;
+    color: rgb(43, 41, 41);
     text-decoration: none;
   }
   
@@ -82,7 +82,7 @@ body {
     font-size: 2.5rem;
   }
   .steve{
-    background-image: url("https://bit.ly/3aqF1Qq");
+    background-image: url("https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size: cover;
     height: 50vh;
     
