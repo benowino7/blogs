@@ -1,8 +1,10 @@
 # STEVE'S BLOG APP
-BLOG-APP is a personal blogging website where you can create and share your opinions and other users can read and comment on them. blog-x also has random quotes that inspire the users. 
+BLOGs is a personal blogging website where one can create and share  opinions.
+ Other users can read and comment on opinions. 
+Blogs also has random quotes that inspire the users. 
 
 ## Author
-> Kebaso Steve Ongati
+> Benson owino
 
 
 ## Screenshot
@@ -18,14 +20,14 @@ The following command installs all the application requirements
 ## Installations
 
 Run 
-``git clone https://github.com/KEBASOH/BLOG-APP.git``
+``git clone https://github.com/benowino7/blogs.git``
 
 or download the zip file from github.
 
 After extracting the files, 
 
 1. Navigate to the project folder
->`` cd BLOG-APP.`` 
+>`` cd blogs.`` 
 
 2. Creating a virtual environment
 >``virtualenv virtual.``
@@ -66,33 +68,33 @@ After extracting the files,
 
 | Inputs |  Description |
 | :---         |          ---: |
-| Username  | Account username, ``eg johndoe``|
-| Password  | Account password, ``eg parseword``|
+| Username  | Account username, ``eg contech7``|
+| Password  | Account password, ``eg pass``|
 
 >Signup inputs
 
 | Inputs |  Description |
 | :---         |          ---: |
-| Username  | Account username, ``eg johndoe``|
-| Email  | User email, ``eg morty@testmail.com``|
-| Password  | Account password, ``eg parseword``|
-| Confirm Password  | Account password, ``eg parseword``|
+| Username  | Account username, ``eg contech7``|
+| Email  | User email, ``eg contech7@testmail.com``|
+| Password  | Account password, ``eg pass``|
+| Confirm Password  | Account password, ``eg pass``|
 
 > Blog inputs
 
 | Inputs | Description  |
 |---|---|
-|  Blog title | the title of the blog eg; `` Car news``  |
+|  Blog title | the title of the blog eg; `` Comedy new story``  |
 |  Blog post| The blog post itself|
 | Comment| A comment on the blog post|
 
 
 
 ## License
-> MIT License &copy; Kebaso Steve Ongati 2020
+> MIT License &copy; Benson Owino 2020
 
 ## Collaborate
-To collaborate, reach me on [ongatikebaso@gmail.com]()
+To collaborate, reach me on [bensonowino7@gmail.com]()
 ## Github live Link
-- https://sleepy-garden-45210.herokuapp.com/
+- ""
 
