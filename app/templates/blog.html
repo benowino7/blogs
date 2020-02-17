@@ -11,16 +11,16 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
     {% if title %}
-        <title>STEVE'S BLOG APP - {{ title }}</title>
+        <title>Blogs- {{ title }}</title>
     {% else %}
-        <title>BLOG</title>
+        <title>Blogs</title>
     {% endif %}
 </head>
 <body>
     <header class="site-header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="/">STEVE BLOG</a>
+          <a class="navbar-brand mr-4" href="/">Blogs</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,9 +46,9 @@
     </header>
      <div class="steve">
      <div class="ongati text-center">
-     <h1>STEVE'S BLOG WEBSITE</h1>
-     <P>You can make your blog at anytime and any place.</P>
-     <a class="nav-item nav-link" href="{{ url_for('new_post') }}"><button type="button" class="btn btn-danger">START YOUR BLOG</button></a>
+     <h1>Blogs WEBSITE</h1>
+     <P>make your blog at anytime and any place. just need internet connecter.</P>
+     <a class="nav-item nav-link" href="{{ url_for('new_post') }}"><button type="button" class="btn btn-danger">START BLOGING</button></a>
      </div>
     </div>
     <main role="main" class="container">
@@ -77,7 +77,7 @@
     <!-- Call to action -->
     <ul class="list-unstyled list-inline text-center py-2">
       <li class="list-inline-item">
-        <h5 class="mb-1">Register for free</h5>
+        <h5 class="mb-1">Register now for free</h5>
       </li>
       <li class="list-inline-item">
         <a href="#!" class="btn btn-outline-white btn-rounded">Sign up</a>
@@ -89,7 +89,7 @@
   <!-- Footer Elements -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: BENSON7
   </div>
   <!-- Copyright -->
 
