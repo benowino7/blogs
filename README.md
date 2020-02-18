@@ -96,5 +96,5 @@ After extracting the files,
 ## Collaborate
 To collaborate, reach me on [bensonowino7@gmail.com]()
 ## Github live Link
-- ""
+-https://blogs7.herokuapp.com/home
 
