@@ -1,3 +1,4 @@
+# type:ignore
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -7,7 +8,7 @@ from flask_mail import Mail
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'benjail'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:benjail1000@localhost/blogs'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)

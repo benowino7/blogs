@@ -42,6 +42,7 @@ After extracting the files,
 5. Running tests
 
  > ``python3 manage.py test.``
+6. > ``be sure to install all required packages in requirements.txt``
 
 
 ## Technologies used
