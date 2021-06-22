@@ -6,12 +6,10 @@ def setUp(self):
         self.user_Contech7 = User(username = 'Contech7',password = 'potato', email = 'contech7@ms.com')
         self.new_comment = Comment(post_id=12345,comment='Welcome to the comment section', user = self.user_Contech7 )
   
-        
 def tearDown(self):
         Comment.query.delete()
         User.query.delete()
-        
-        
+            
 def test_check_instance_variables(self):
         self.assertEquals(self.new_comment.post_id,12345)
         self.assertEquals(self.new_comment.comment,'Welcome to the comment section')
