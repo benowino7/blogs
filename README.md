@@ -92,7 +92,7 @@ After extracting the files,
 
 
 ## License
-> MIT License &copy; Benson Owino 2020
+> MIT License &copy; Benson Owino 2021
 
 ## Collaborate
 To collaborate, reach me on [bensonowino7@gmail.com]()
