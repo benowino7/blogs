@@ -8,7 +8,7 @@ Blogs also has random quotes that inspire the users.
 
 
 ## Screenshot
-<img src="landing.png">
+<img src="landing1.png">
 
 
 ## Requirements
